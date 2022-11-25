@@ -26,7 +26,7 @@ function errorAlert(error) {
 
   window.addEventListener('DOMContentLoaded', async () => {
 
-    const url = 'http://localhost:8000/api/conference/';
+    const url = 'http://localhost:8000/api/conferences/';
 
     try {
       const response = await fetch(url);
